@@ -27,3 +27,24 @@
 [id*="input"]:active {
     opacity: 1 !important;
 }
+
+@media(max-width:575px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #titulo-ronda {
+        width: 100%;
+    }
+
+    #numero-ronda {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #boton-empezar {
+        width: 70%;
+    }
+}
