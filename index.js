@@ -30,6 +30,7 @@ function cambiarElTitulo(estado) {
 }
 function cambiarElNumeroDeRonda(a) {
     $numeroDelTurno.textContent = `Ronda #${a}`
+    $numeroDelTurno.value = `${a}`
 }
 function deshabilitarLaInteraccionConLosInputs() {
     document.querySelectorAll(`[id*="input"]`).forEach(function (input) {
